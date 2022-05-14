@@ -1,10 +1,10 @@
 # Hopscotch-JS
 
-Hopscotch-JS is a manually ported JavaScript version of the [Hopscotch micro benchmark suite](https://github.com/alifahmed/hopscotch).
+Hopscotch-JS is a manually ported JavaScript version of the [Hopscotch micro-benchmark suite](https://github.com/alifahmed/hopscotch).
 
-Currently, Hopscotch-JS's purpose is for evaluating the performance of the shared memory (`SharedArrayBuffer`) in parallel web workers, which tests different memory access pattern in different number of web workers used upon the proxy pattern parallelism (the main thread creates a proxy thread and the proxy thread create other worker threads). 
+Currently, Hopscotch-JS's purpose is for evaluating the performance of the shared memory (`SharedArrayBuffer`) in parallel web workers, which tests different memory access patterns in a different number of web workers used upon the proxy pattern parallelism (the main thread creates a proxy thread and the proxy thread create other worker threads). 
 
-It's easy to modify the source code for different purpose; for example, testing `ArrayBuffer` instead of `SharedArrayBuffer`, running the code without web workers, or not using the proxy pattern parallelism.
+It's easy to modify the source code for a different purpose; for example, testing `ArrayBuffer` instead of `SharedArrayBuffer`, running the code without web workers, or not using the proxy pattern parallelism.
 
 ## Setup
 
@@ -51,9 +51,15 @@ Open a web server for this project (listen on port 8081).
 node tool/http_server.js
 ```
 
+Install the node modules.
+
+```sh
+npm install
+```
+
 Run the benchmark.
 
-```
+```sh
 # single run
 node run_single.js
 
@@ -76,7 +82,7 @@ You can modify the parameters in `benchmark/web_main_proxy.js`:
 
 ## Citation
 
-If you use Hopscotch-JS for academical purpose, please cite the followings:
+If you use Hopscotch-JS for an academic purpose, please cite the followings:
 
 - Alif Ahmed and Kevin Skadron. 2019. Hopscotch: a micro-benchmark suite for memory performance evaluation. In Proceedings of the International Symposium on Memory Systems (MEMSYS '19). Association for Computing Machinery, New York, NY, USA, 167–172. https://doi.org/10.1145/3357526.3357574
 - Liu, An-Chi and You, Yi-Ping, "Offworker: An Offloading Framework for Parallel Web Applications,"  M.S. thesis, Institute of Computer Science and Engineering, National Yang Ming Chiao Tung University, Hsinchu, Taiwan, 2022. [Online]. Available: https://etd.lib.nctu.edu.tw/cgi-bin/gs32/tugsweb.cgi?o=dnctucdr&s=id=%22GT0708560050%22.&switchlang=en
