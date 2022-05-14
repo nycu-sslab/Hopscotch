@@ -1,0 +1,6 @@
+{
+  "name": "hopscotch-js",
+  "dependencies": {
+    "selenium-webdriver": "^4.1.2"
+  }
+}

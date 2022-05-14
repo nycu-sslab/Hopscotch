@@ -1,0 +1,32 @@
+<script>
+    const first_time = performance.now();
+
+    const proxy = new Worker("./web_main_proxy.js");
+
+    proxy.postMessage("start");
+
+    proxy.onmessage = e => {
+
+        show_time_result(e.data.kernels);
+        set_done_flag()
+    }
+
+    function show_time_result(kernels) {
+
+        let output_html = "";
+
+        for (const key in kernels) {
+            output_html += `${key}<div id="${key}">${kernels[key]}</div></br></br>`
+        }
+
+        document.getElementById("result").innerHTML = output_html;
+    }
+
+    function set_done_flag() {
+        document.getElementById("flag").innerHTML = "done";
+    }
+
+</script>
+
+<div id="flag"></div>
+<div id="result"></div>
