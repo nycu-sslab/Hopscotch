@@ -1,6 +1,8 @@
 # Hopscotch-JS
 
-Hopscotch-JS is a manually ported JavaScript version of the [Hopscotch micro-benchmark suite](https://github.com/alifahmed/hopscotch).
+Hopscotch-JS is used for the thesis, "[Offworker: An Offloading Framework for Parallel Web Applications](https://etd.lib.nctu.edu.tw/cgi-bin/gs32/tugsweb.cgi?o=dnctucdr&s=id=%22GT0708560050%22.&switchlang=en)," authored by Liu, An-Chi and You, Yi-Ping.
+
+Hopscotch-JS is a manually ported JavaScript version of the [Hopscotch micro benchmark suite](https://github.com/alifahmed/hopscotch).
 
 Currently, Hopscotch-JS's purpose is for evaluating the performance of the shared memory (`SharedArrayBuffer`) in parallel web workers, which tests different memory access patterns in a different number of web workers used upon the proxy pattern parallelism (the main thread creates a proxy thread and the proxy thread create other worker threads). 
 
