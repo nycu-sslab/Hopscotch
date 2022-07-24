@@ -1,6 +1,6 @@
 # Hopscotch-JS
 
-Hopscotch-JS is used for the thesis, "[Offworker: An Offloading Framework for Parallel Web Applications](https://etd.lib.nctu.edu.tw/cgi-bin/gs32/tugsweb.cgi?o=dnctucdr&s=id=%22GT0708560050%22.&switchlang=en)," authored by Liu, An-Chi and You, Yi-Ping.
+Hopscotch-JS is used for the paper, "[Offworker: An Offloading Framework for ParallelWeb Applications](#citation)," authored by An-Chi Liu and Yi-Ping You.
 
 Hopscotch-JS is a manually ported JavaScript version of the [Hopscotch micro benchmark suite](https://github.com/alifahmed/hopscotch).
 
@@ -87,7 +87,9 @@ You can modify the parameters in `benchmark/web_main_proxy.js`:
 If you use Hopscotch-JS for an academic purpose, please cite the followings:
 
 - Alif Ahmed and Kevin Skadron. 2019. Hopscotch: a micro-benchmark suite for memory performance evaluation. In Proceedings of the International Symposium on Memory Systems (MEMSYS '19). Association for Computing Machinery, New York, NY, USA, 167–172. https://doi.org/10.1145/3357526.3357574
-- Liu, An-Chi and You, Yi-Ping, "Offworker: An Offloading Framework for Parallel Web Applications,"  M.S. thesis, Institute of Computer Science and Engineering, National Yang Ming Chiao Tung University, Hsinchu, Taiwan, 2022. [Online]. Available: https://etd.lib.nctu.edu.tw/cgi-bin/gs32/tugsweb.cgi?o=dnctucdr&s=id=%22GT0708560050%22.&switchlang=en
+- An-Chi Liu and Yi-Ping You, "Offworker: An Offloading Framework for Parallel Web Applications," to appear in Proceedings of the 23rd International Conference on Web Information Systems and Engineering (WISE '22), Biarritz, France, October 31-November 3, 2022.
+- An-Chi Liu and Yi-Ping You, "Offworker: An Offloading Framework for Parallel Web Applications," M.S. thesis, Institute of Computer Science and Engineering, National Yang Ming Chiao Tung University, Hsinchu, Taiwan, 2022. [Online]. Available: https://etd.lib.nctu.edu.tw/cgi-bin/gs32/tugsweb.cgi?o=dnctucdr&s=id=%22GT0708560050%22.&switchlang=en
+
 
 ## License
 
